@@ -15,6 +15,7 @@ public class SmsReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
+        Log.d(Constants.TAG, "onReceive: ");
         SpUtils spUtils = new SpUtils(context);
         SmtplUtils smtpUtils = new SmtplUtils(spUtils);
 

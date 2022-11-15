@@ -35,6 +35,10 @@ SMS2Email
         - 未联网
         - 配置信息错
         - 手机或版本不兼容
+
+    - adb安装失败错误提示 Failure [INSTALL_FAILED_TEST_ONLY: installPackageLI]
+        - adb install -r -t apk_path
         
-### TODO
+### 六、TODO
+
       
